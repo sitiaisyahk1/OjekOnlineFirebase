@@ -70,16 +70,15 @@
     <EditText
         android:id="@+id/signUpConfirmPassword"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_45dp"
-        android:hint="@string/confirm_password"
-        android:textSize="@dimen/_18sp"
+        android:layout_height="52dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="@dimen/_10dp"
         android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_10dp"
         android:layout_marginRight="@dimen/_30dp"
         android:background="@drawable/background"
-        />
+        android:gravity="center"
+        android:hint="@string/confirm_password"
+        android:textSize="@dimen/_18sp" />
 
     <Button
         android:id="@+id/signUpButton"
